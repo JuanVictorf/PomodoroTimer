@@ -19,9 +19,9 @@ Uma agenda de tarefas ou checklist com coisas a fazer;
 Lápis e borracha.
 
 Em seguida:
-1 - Escolha uma tarefa na qual você deseja trabalhar;
-2 - Posteriormente, defina o cronômetro do Pomodoro para 25 minutos, a duração normal de um Pomodoro;
-3- Trabalhe na tarefa até o cronômetro tocar. Em seguida, coloque uma marca de seleção em um pedaço de papel;
-4 - Para fazer algo não relacionado ao trabalho, como se alongar ou fazer uma ligação, faça uma pequena pausa de 5 minutos;
+1 - Escolha uma tarefa na qual você deseja trabalhar;  
+2 - Posteriormente, defina o cronômetro do Pomodoro para 25 minutos, a duração normal de um Pomodoro;  
+3- Trabalhe na tarefa até o cronômetro tocar. Em seguida, coloque uma marca de seleção em um pedaço de papel;  
+4 - Para fazer algo não relacionado ao trabalho, como se alongar ou fazer uma ligação, faça uma pequena pausa de 5 minutos;  
 5 - A cada 4 pomodoros, faça uma pausa maior, de 20 a 30 minutos. Isso o ajudará a reagrupar seus pensamentos e a relaxar.
 
