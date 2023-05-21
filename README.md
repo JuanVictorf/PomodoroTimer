@@ -4,7 +4,7 @@ Criando um layout web com o método Pomodoro para estudos.
 ## 🖥️ Tecnologias utilizadas:
  - HTML
  - CSS
- - JavaSricpt
+ - JavaScript
 
 ### 🧐 Explicação sobre o projeto: 
 Pomodoro é um sistema cíclico. Dessa forma, você trabalha em intervalos curtos, o que garante uma produtividade consistente. Além disso, você também pode fazer pausas
