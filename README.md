@@ -18,7 +18,7 @@ Timer ou cronômetro para marcar o tempo;
 Uma agenda de tarefas ou checklist com coisas a fazer;
 Lápis e borracha.
 
-Em seguida:
+Em seguida:  
 1 - Escolha uma tarefa na qual você deseja trabalhar;  
 2 - Posteriormente, defina o cronômetro do Pomodoro para 25 minutos, a duração normal de um Pomodoro;  
 3- Trabalhe na tarefa até o cronômetro tocar. Em seguida, coloque uma marca de seleção em um pedaço de papel;  
