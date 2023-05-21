@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Pomodoro Tecnic</title>
+
+    <script>
+      var cronometro
+      var minutos = 25
+      var segundos = 0
+
+      function iniciarCronometro() {
+        console.log("Clicado no botão Iniciar")
+
+        var minuteElement = document.querySelector(".minute")
+        var secondsElement = document.querySelector(".seconds")
+
+        cronometro = setInterval(function () {
+          // Atualizar os elementos de minutos e segundos
+          minuteElement.textContent = minutos < 10 ? "0" + minutos : minutos
+          secondsElement.textContent = segundos < 10 ? "0" + segundos : segundos
+
+          // Decrementar os segundos
+          segundos--
+
+          // Verificar se os segundos chegaram a zero
+          if (segundos < 0) {
+            segundos = 59
+            minutos--
+
+            // Verificar se o cronômetro chegou a zero
+            if (minutos < 0) {
+              clearInterval(cronometro)
+              alert("Tempo esgotado!")
+            }
+          }
+        }, 1000)
+      }
+
+      function pausarCronometro() {
+        console.log("Clicado no botão Pausar")
+        clearInterval(cronometro)
+      }
+
+      function resetarCronometro() {
+        console.log("Clicado no botão Resetar")
+        clearInterval(cronometro)
+        cronometro = null
+        minutos = 25
+        segundos = 0
+        iniciarCronometro()
+      }
+    </script>
+  </head>
+  <body>
+    <div class="linkedin">
+      <a
+        href="https://www.linkedin.com/in/juan-victor-00528a1ba/"
+        target="_blank"
+        class="memory"
+      >
+        <img src="./assets/linkedin.png" alt="Linkedin image" />
+      </a>
+    </div>
+
+    <div class="container">
+      <h1>Pomodoro Tecnic</h1>
+      <div class="contador">
+        <span class="minute">25</span>
+        <span>:</span>
+        <span class="seconds">00</span>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button onclick="iniciarCronometro()">Iniciar</button>
+      <button onclick="pausarCronometro()">Pausar</button>
+      <button onclick="resetarCronometro()">Reset</button>
+    </div>
+
+    <div class="texto">
+      <p>
+        Pomodoro é um sistema cíclico. Dessa forma, você trabalha em intervalos
+        curtos, o que garante uma produtividade consistente. Além disso, você
+        também pode fazer pausas regulares que reforçam sua motivação e mantêm
+        você criativo. Veja abaixo como funciona!
+      </p>
+      <br />
+      <p>
+        Em primeiro lugar você vai precisar de três itens para auxiliar na
+        contagem do tempo: Timer ou cronômetro para marcar o tempo; Uma agenda
+        de tarefas ou checklist com coisas a fazer; Lápis e borracha.
+      </p>
+      <br />
+      <p>
+        Em seguida: Escolha uma tarefa na qual você deseja trabalhar;
+        Posteriormente, defina o cronômetro do Pomodoro para 25 minutos, a
+        duração normal de um Pomodoro; Trabalhe na tarefa até o cronômetro
+        tocar. Em seguida, coloque uma marca de seleção em um pedaço de papel;
+        Para fazer algo não relacionado ao trabalho, como se alongar ou fazer
+        uma ligação, faça uma pequena pausa de 5 minutos; A cada 4 pomodoros,
+        faça uma pausa maior, de 20 a 30 minutos. Isso o ajudará a reagrupar
+        seus pensamentos e a relaxar.
+      </p>
+    </div>
+  </body>
+</html>
